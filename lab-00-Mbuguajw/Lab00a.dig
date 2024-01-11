@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>1</version>
+  <attributes/>
+  <visualElements>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>ground</string>
+        </entry>
+      </elementAttributes>
+      <pos x="540" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>VDD</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>power</string>
+        </entry>
+      </elementAttributes>
+      <pos x="500" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PolarityAwareLED</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>led1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="540" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Switch</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>switch1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="500" y="220"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="500" y="140"/>
+      <p2 x="500" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="360"/>
+      <p2 x="540" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="220"/>
+      <p2 x="540" y="280"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
